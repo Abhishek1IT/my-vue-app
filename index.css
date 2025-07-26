@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: monospaced;
+}
+body {
+    background-color: #00b6c4;
+}
+.container {
+    background-color: #f4f4f4;
+    max-width: 800px;
+    margin: 60px auto; 
+    height: 1250px;
+    padding: 10px;
+}
+.header {
+   text-align: center;
+}
+.header h1 {
+    margin-bottom: 10px;
+}
+.left {
+   flex: 1;
+   padding: 30px;
+}
+.left p {
+    height: 2;
+}
+.main {
+    justify-items: center;
+    align-items: center;
+    flex: 1;
+}
+.edu {
+    justify-items: center;
+    align-items: center;
+    flex: 1;
+}
+.skills {
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    padding: 16px;
+    margin-bottom: 20px;
+}
+.skills ul li {
+   line-height: 2;
+}
+.acce {
+    
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h2 {
+    background: #5cd4d0;
+    padding: 10px;
+    color: #141313;
+    margin: 30px 0 ;
+    font-size: 20px;
+    border-radius: 0 10px 0 50px;
+}
